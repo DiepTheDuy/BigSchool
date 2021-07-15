@@ -228,3 +228,4 @@ C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\Syste
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingsTable.resources
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddIsCanceledColumnToCourse.resources
