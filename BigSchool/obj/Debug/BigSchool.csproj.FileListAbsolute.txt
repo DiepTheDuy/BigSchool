@@ -219,3 +219,12 @@ C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.CreateTableCourse.resources
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
 C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Web.Http.dll
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Web.Http.xml
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
+C:\Users\The Duy\OneDrive\Desktop\web\Thực hành\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingsTable.resources
