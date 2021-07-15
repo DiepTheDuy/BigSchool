@@ -58,7 +58,7 @@ namespace BigSchool.Controllers
             var userId = User.Identity.GetUserId();
 
             var courses = _dbContext.Attendances
-                .Where(a => a.AttendeeId == userId)
+                .Where(a => a.AttendeeId == userId && a.Course.IsCanceled == false)
                 .Select(a => a.Course)
                 .Include(l => l.Lecturer)
                 .Include(l => l.Category)
@@ -71,14 +71,31 @@ namespace BigSchool.Controllers
             };
 
             return View(viewModel);
+        }
 
+        [Authorize]
+        public ActionResult Following()
+        {
+            var userId = User.Identity.GetUserId();
+
+            var courses = _dbContext.Followings
+                .Where(f => f.FollowerId == userId)                        
+                .ToList();
+
+            var viewModel = new Followlist
+            {
+                Followinglist = courses,
+                
+            };
+
+            return View(viewModel);
         }
 
         public ActionResult Mine()
         {
             var userId = User.Identity.GetUserId();
             var courses = _dbContext.Courses
-                .Where(c => c.LecturerId == userId && c.DateTime > DateTime.Now)
+                .Where(c => c.LecturerId == userId && c.DateTime > DateTime.Now && c.IsCanceled == false)
                 .Include(l => l.Lecturer)
                 .Include(c => c.Category)
                 .ToList();
