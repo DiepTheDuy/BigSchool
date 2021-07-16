@@ -102,7 +102,7 @@ namespace BigSchool.Controllers
 
             return View(courses);
         }
-
+        //hello
         [Authorize]
         public ActionResult Edit(int id)
         {
